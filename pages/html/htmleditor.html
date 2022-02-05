@@ -9,12 +9,92 @@
         <title>HTML Editor</title>
 
         <link rel="stylesheet" href="htmlpage.css">
+        <link rel="stylesheet" href="../../src/style.css">
+        <link rel="stylesheet" href="../../src/task.css">
 
     </head>
 
     <body>
 
-        
+        <div class="body">
+
+            <div class="header">
+
+                <h2 class="header-title">Digital Maker: HTML Editor</h2>
+
+            </div>
+
+            <div class="main">
+
+                <div class="left">
+
+                    <h3 class="box-title">HTML Editing</h3>
+
+                    <hr class="box-hr">
+
+                    <p class="box-text" id="slide1">
+
+                        To start with we need to laying out the HTML code, to do this we only need to add a button and a output.
+                        <br><br>The button element just requires you to type:
+                        <br><br><span class="code-preview"><span><</span>button id="button">Submit<span><</span>/button></span>
+                        <br><br>The output element just requires you to type:
+                        <br><br><span class="code-preview"><span><</span>p id="output"><span><</span>/p></span>
+                        <br><br>Once you are ready to type these out, press the next button.
+
+                    </p>
+
+                    <div class=" hidden" id="slide2">
+                        
+                        <p class="box-text">
+                            
+                            You can now enter the code into this box below and press submit to check it, if its correct you will be able to proceed to the next section.
+                            <br><br>If you need help the code is here:
+                            <br><br><span class="code-preview"><span><</span>button id="button">Submit<span><</span>/button></span>
+                            <br><br><span class="code-preview"><span><</span>p id="output"><span><</span>/p></span>
+                        
+                        </p>
+                        
+                        <textarea id="area-input" class="box-area">Add the code here... (delete this text)</textarea>
+
+                        <p style="margin-top: 5px;" class="box-text hidden" id="good-code">Good Code!</p>
+                        <p style="margin-top: 5px;" class="box-text hidden" id="bad-code">Bad Code.</p>
+
+                    </div>
+
+                    <button class="box-button" id="next-button">Next</button>
+                    <button class="box-button hidden" id="submit-button">Submit</button>
+                    <button class="box-button hidden" id="section-button">Next Section</button>
+
+                </div>
+                
+                <div class="right">
+                    
+                    <h3 class="box-title">Output Preview</h3>
+
+                    <hr class="box-hr">
+
+                    <div class="box-output">
+                        
+                        <p style="margin: 0px; margin-bottom: 5px;">You need to add the button and output elements, they will appear here when added.</p>
+
+                        <hr>
+
+                        <form id="form">
+
+                            <lable for="text-input">Text Input:</lable><br>
+                            <input type="text" id="text-input" name="text-input">
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
 
     </body>
 

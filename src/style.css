@@ -111,3 +111,18 @@ body {
     border-bottom: orange solid 2px; 
 
 }
+
+.code-preview {
+
+    border-left: 2px solid orange;
+    padding: 5px;
+    background: rgba(233, 236, 239, 0.6 );
+    width: 100%;
+
+}
+
+.hidden {
+
+    display: none;
+
+}

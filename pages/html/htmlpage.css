@@ -1,0 +1,30 @@
+#next-button, #submit-button {
+
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.box-output {
+
+    width: calc(100% - 30px);
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
+.box-area {
+
+    resize: none;
+    width: calc(100% - 30px);
+    height: 15em;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
