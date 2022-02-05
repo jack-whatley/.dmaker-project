@@ -1,0 +1,31 @@
+body {
+
+    font-family: Helvetica, sans-serif;
+
+}
+
+#text-input, #output {
+
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: small;
+    width: 250px;
+
+}
+
+#text-input:focus {
+
+    outline: none;
+
+}
+
+#button {
+
+    margin-top: 5px;
+    padding: 5px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
