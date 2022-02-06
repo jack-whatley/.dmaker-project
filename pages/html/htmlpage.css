@@ -22,9 +22,40 @@
 
     resize: none;
     width: calc(100% - 30px);
-    height: 15em;
     padding: 5px;
+    border: 1px solid black;
     margin-left: 10px;
+
+}
+
+.box-area:focus {
+
+    outline: none;
+
+}
+
+#area-input1 {
+
+    border-bottom: none;
     margin-top: 5px;
+
+}
+
+#area-input2 {
+
+    border-top: none;
+
+}
+
+.html-input {
+
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.highlighted {
+
+    background: orange !important;
 
 }

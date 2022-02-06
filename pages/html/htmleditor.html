@@ -54,16 +54,26 @@
                         
                         </p>
                         
-                        <textarea id="area-input" class="box-area">Add the code here... (delete this text)</textarea>
+                        <!--<textarea id="area-input" class="box-area">Add the code here... (delete this text)</textarea>-->
 
-                        <p style="margin-top: 5px;" class="box-text hidden" id="good-code">Good Code!</p>
-                        <p style="margin-top: 5px;" class="box-text hidden" id="bad-code">Bad Code.</p>
+                        <p class="box-text">Enter them here:</p>
+                        <input type="text" id="area-input1" class="box-area">
+                        <input type="text" id="area-input2" class="box-area">
+
+
+                        <p style="margin-top: 5px;" class="box-text hidden" id="good-code">
+                            
+                            Good Code! You should see the new elements you created on the right, highlighted in x colour.
+                            <br><br>Hit the next button when you are ready to make the page on the right work, by adding the javascript.
+                        
+                        </p>
+                        <p style="margin-top: 5px;" class="box-text hidden" id="bad-code">The code is not quite correct.</p>
 
                     </div>
 
                     <button class="box-button" id="next-button">Next</button>
                     <button class="box-button hidden" id="submit-button">Submit</button>
-                    <button class="box-button hidden" id="section-button">Next Section</button>
+                    <a class="box-button hidden" id="section-button">Next</a>
 
                 </div>
                 
@@ -85,6 +95,9 @@
                             <input type="text" id="text-input" name="text-input">
 
                         </form>
+
+                        <button class="highlighted hidden" id="button">Submit</button>
+                        <p class="highlighted hidden" id="output">Output: </p>
 
                     </div>
 

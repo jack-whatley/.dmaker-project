@@ -3,7 +3,13 @@ let nextButton = document.getElementById("next-button");
 let submitButton = document.getElementById("submit-button");
 let slide1 = document.getElementById("slide1");
 let slide2 = document.getElementById("slide2");
-let areaInput = document.getElementById("area-input");
+let areaInput1 = document.getElementById("area-input1");
+let areaInput2 = document.getElementById("area-input2");
+let goodCode = document.getElementById("good-code");
+let badCode = document.getElementById("bad-code");
+let nextSection = document.getElementById("section-button");
+let button = document.getElementById("button");
+let output = document.getElementById("output");
 
 let input = '<button id="button">Submit</button> <p id="output"></p>';
 
@@ -22,9 +28,19 @@ nextButton.addEventListener("click", function() {
 
 submitButton.addEventListener("click", function() {
 
-    if (areaInput.value == '<button id="button">Submit</button><p id="output"></p>') {
+    if (areaInput1.value == '<button id="button">Submit</button>' && areaInput2.value == '<p id="output"></p>') {
 
-        alert("i would like to take on 5 burly men!!!")
+        goodCode.classList.remove("hidden");
+        submitButton.classList.add("hidden");
+        badCode.classList.add("hidden");
+        nextSection.classList.remove("hidden");
+        button.classList.remove("hidden");
+        output.classList.remove("hidden");
+
+    } else {
+
+        goodCode.classList.add("hidden");
+        badCode.classList.remove("hidden");
 
     }
 
