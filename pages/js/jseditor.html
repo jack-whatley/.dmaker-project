@@ -8,7 +8,7 @@
 
         <title>JS Editor</title>
 
-        <link rel="stylesheet" href="jseditor.css">
+        <link rel="stylesheet" href="jspage.css">
         <link rel="stylesheet" href="../../src/style.css">
         <link rel="stylesheet" href="../../src/task.css">
 
@@ -24,7 +24,80 @@
 
             </div>
 
+            <div class="main">
+
+                <div class="left">
+
+                    <h3 class="box-title">JS Editor</h3>
+
+                    <hr class="box-hr">
+
+                    <p class="box-text" id="slide1">
+
+                        Now that we have layed out the HTML we need to add the Javascript so the website can work.
+                        <br><br>We need to add a trigger to the button so it acivates when pressed.
+                        <br><br><span class="code-preview">button.addEventListener("click", function() {</span>
+                        <br><br>And then we need to set the value of the input equal to the output so it displays the text.
+                        <br><br><span class="code-preview">output.innerHTML = input.value;</span>
+                        <br><br>When you are ready to enter the code, click the next button below.
+
+                    </p>
+
+                    <div class="hidden" id="slide2">
+
+                        <p class="box-text">
+
+                            You are now able to enter the code into the box below; hit submit when you are done. The code is also here if you need help.
+                            <br><br><span class="code-preview">button.addEventListener("click", function() {</span>
+                            <br><br><span class="code-preview">output.innerHTML = input.value;</span>
+
+                        </p>
+
+                        <br>
+
+                        <p class="box-text">Enter them here:</p>
+                        <input type="text" class="box-area" id="area-input1">
+                        <input type="text" class="box-area" id="area-input2">
+                        <p class="box-area" id="area-input3">});</p>
+
+                        <p class="box-text hidden" id="good-code">Good Code! You should now be able to interact with the page on the right, give it a try, and when you are ready hit next.</p>
+                        <p class="box-text hidden" id="bad-code">You have entered the wrong code, check above and try again.</p>
+
+                    </div>
+
+                    <button class="box-button" id="next-button">Next</button>
+                    <button class="box-button hidden" id="submit-button">Submit</button>
+                    <a class="box-button hidden" id="next-button2" href="#">Next</a>
+
+                </div>
+
+                <div class="right">
+
+                    <h3 class="box-title">Output Preview</h3>
+
+                    <hr class="box-hr">
+
+                    <div class="box-output">
+                    
+                        <form id="form">
+
+                            <lable for="text-input">Text Input:</lable><br>
+                            <input type="text" id="text-input" name="text-input">
+
+                        </form>
+
+                        <button id="button">Submit</button>
+                        <p id="output">Output: </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
+
+        <script src="js-script.js"></script>
 
     </body>
 

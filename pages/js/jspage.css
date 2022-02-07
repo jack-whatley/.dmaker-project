@@ -1,0 +1,57 @@
+.box-output {
+
+    width: calc(100% - 30px);
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
+#next-button, #submit-button {
+
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.box-area {
+
+    resize: none;
+    width: calc(100% - 30px);
+    padding: 5px;
+    border: 1px solid black;
+    margin-left: 10px;
+
+}
+
+.box-area:focus {
+
+    outline: none;
+
+}
+
+#area-input1 {
+
+    border-bottom: none;
+
+}
+
+#area-input2 {
+
+    border-bottom: none;
+    border-top: none;
+    width: calc(100% - 45px);
+    padding-left: 20px !important;
+
+}
+
+#area-input3 {
+
+    border-top: none;
+    margin-top: 0px;
+
+}
