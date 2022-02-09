@@ -126,3 +126,17 @@ body {
     display: none;
 
 }
+
+img {
+
+    width: 100px;
+    height: auto;
+
+}
+
+.nav-tab {
+
+    width: calc(100% - 10px);
+    padding: 5px;
+
+}
