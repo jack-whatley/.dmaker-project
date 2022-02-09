@@ -23,11 +23,14 @@ body {
     border-bottom: solid 2px orange;
     width: calc(100% - 20px);
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     /*background: #e9ecef;*/
 
 }
 
-.header-title {
+.header-title, .page-number {
 
     margin: 0px;    
 
@@ -138,5 +141,14 @@ img {
 
     width: calc(100% - 10px);
     padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-left, .nav-right {
+
+    color: grey;
+    text-decoration: none;
 
 }
