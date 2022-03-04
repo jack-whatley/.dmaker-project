@@ -39,12 +39,10 @@ submitButton.addEventListener("click", function() {
 
 });
 
-// already filled in for cubs:
 const input = document.forms["form"]["text-input"];
 const button = document.getElementById("button");
 const output = document.getElementById("output");
 
-// cubs code:
 button.addEventListener("click", function() {
 
     if (codeDone === true) {
